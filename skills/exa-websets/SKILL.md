@@ -1,3 +1,8 @@
+---
+name: exa-websets
+description: Perform large-scale asynchronous searches with verification and structured data extraction using Exa Websets. Use when you need to search and filter multiple URLs with criteria, or extract specific data points asynchronously.
+---
+
 # Exa Websets (Async Search & Enrichment)
 
 Use this skill to perform large-scale asynchronous searches that require verification (`criteria`) and structured data extraction (`enrichments`). 

@@ -1,3 +1,8 @@
+---
+name: exa-get-contents
+description: Extract clean, LLM-ready content, summaries, or highlights from known URLs using the Exa API. Use when the user has specific URLs and wants to extract content efficiently without searching the web.
+---
+
 # Exa Get Contents (Token-Efficient)
 
 Use this skill to extract clean, LLM-ready content from known URLs using the Exa API via `curl`, while **strictly minimizing token usage** to keep context sizes manageable. 

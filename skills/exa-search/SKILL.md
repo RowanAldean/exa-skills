@@ -1,3 +1,8 @@
+---
+name: exa-search
+description: Perform web searches, company research, and people discovery using the Exa API. Use when you need to search the web, find people, or look up companies, and need to minimize token usage via targeted highlights.
+---
+
 # Exa Token-Efficient Search
 
 Use this skill to perform web searches, company research, and people discovery using the Exa API via `curl`, while **strictly minimizing token usage** to keep context sizes manageable.

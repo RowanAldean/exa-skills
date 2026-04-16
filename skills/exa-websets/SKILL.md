@@ -68,6 +68,10 @@ while True:
     cursor = page.next_cursor
 ```
 
+## Token Isolation Strategy
+
+When paginating over Webset results and parsing `item.properties`, the context window can quickly fill up. **Always spawn a sub-agent / teammate** to orchestrate the Webset polling and data extraction. The teammate can handle the raw JSON payloads and summarize the findings into a clean Markdown table for the main context.
+
 ## ⚠️ Critical Gotchas
 
 - **Async Execution**: Do not expect items in the response when creating a Webset. You MUST poll the webset ID until its status is `"idle"`.

@@ -9,6 +9,7 @@ Commands are user-invocable slash commands that you explicitly call.
 
 | Command | Description |
 |---------|-------------|
+| `/exa:crm-prospector` | Orchestrate high-volume lead generation and compile deduplicated JSON/CSV files ready for CRM injection |
 | `/exa:market-research` | Run a comprehensive market research and competitor analysis workflow |
 | `/exa:search` | Perform a token-efficient web search, company lookup, or people discovery |
 | `/exa:get-contents` | Extract clean, LLM-ready content, summaries, or highlights from known URLs |
@@ -19,6 +20,7 @@ Skills are contextual and auto-loaded based on your conversation. When a request
 
 | Skill | Useful for |
 |-------|------------|
+| `exa-crm-prospector` | Orchestrating high-volume lead generation using sub-agents to fetch and deduplicate data perfectly mapped for CRM CLIs (like twenty-cli) |
 | `exa-market-research` | Conducting comprehensive market research, competitor analysis, and building company/people lists using a multi-agent workflow |
 | `exa-search` | Performing general web searches, company lookups, and people discovery while strictly minimizing token usage |
 | `exa-get-contents` | Extracting clean content, summaries, or highlights from known URLs without searching the web |

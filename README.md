@@ -4,6 +4,26 @@ Skills for teaching agents how to use Exa's API and platform.
 > [!CAUTION]
 > This skills directory is not an official extension from the [Exa](https://exa.ai/) team. It is not maintained, affiliated with or contributed to by them and it's use comes at your own discretion.
 
+## Commands
+Commands are user-invocable slash commands that you explicitly call.
+
+| Command | Description |
+|---------|-------------|
+| `/exa:market-research` | Run a comprehensive market research and competitor analysis workflow |
+| `/exa:search` | Perform a token-efficient web search, company lookup, or people discovery |
+| `/exa:get-contents` | Extract clean, LLM-ready content, summaries, or highlights from known URLs |
+| `/exa:websets` | Run large-scale asynchronous searches with verification and data enrichment |
+
+## Skills
+Skills are contextual and auto-loaded based on your conversation. When a request matches a skill's triggers, the agent loads and applies the relevant skill to provide accurate, up-to-date guidance.
+
+| Skill | Useful for |
+|-------|------------|
+| `exa-market-research` | Conducting comprehensive market research, competitor analysis, and building company/people lists using a multi-agent workflow |
+| `exa-search` | Performing general web searches, company lookups, and people discovery while strictly minimizing token usage |
+| `exa-get-contents` | Extracting clean content, summaries, or highlights from known URLs without searching the web |
+| `exa-websets` | Performing large-scale asynchronous searches with verification (`criteria`) and structured data extraction (`enrichments`) |
+
 ## Installing
 
 These skills work with any agent that supports the [Agent Skills](https://agentskills.io/home) standard, including Claude Code, OpenCode, OpenAI Codex, and Pi.
